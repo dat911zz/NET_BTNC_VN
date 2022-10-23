@@ -16,5 +16,32 @@ namespace _2001202045_VuNgoDat_SM24_BTNC_VN.Views.BTNC
         {
             InitializeComponent();
         }
+        private void mbtnCreate_Click(object sender, EventArgs e)
+        {
+            Input InputFrm = new Input();
+            //InputFrm.Show();
+            //InputFrm.txtName 
+        }
+
+        private void mbtnMoveToB_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mbtnMoveToA_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mbtnDelete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mbtnExit_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
