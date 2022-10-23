@@ -31,11 +31,11 @@ namespace _2001202045_VuNgoDat_SM24_BTNC_VN.Views.BTNC
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mbtnUpdate = new System.Windows.Forms.ToolStripMenuItem();
-            this.mbtnExit = new System.Windows.Forms.ToolStripMenuItem();
             this.mbtnCreate = new System.Windows.Forms.ToolStripMenuItem();
             this.mbtnMoveToB = new System.Windows.Forms.ToolStripMenuItem();
             this.mbtnMoveToA = new System.Windows.Forms.ToolStripMenuItem();
             this.mbtnDelete = new System.Windows.Forms.ToolStripMenuItem();
+            this.mbtnExit = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.lstbA = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -70,13 +70,6 @@ namespace _2001202045_VuNgoDat_SM24_BTNC_VN.Views.BTNC
             this.mbtnUpdate.Size = new System.Drawing.Size(82, 24);
             this.mbtnUpdate.Text = "Cập nhật";
             // 
-            // mbtnExit
-            // 
-            this.mbtnExit.Name = "mbtnExit";
-            this.mbtnExit.Size = new System.Drawing.Size(77, 24);
-            this.mbtnExit.Text = "&Kết thúc";
-            this.mbtnExit.Click += new System.EventHandler(this.mbtnExit_Click);
-            // 
             // mbtnCreate
             // 
             this.mbtnCreate.Name = "mbtnCreate";
@@ -105,6 +98,13 @@ namespace _2001202045_VuNgoDat_SM24_BTNC_VN.Views.BTNC
             this.mbtnDelete.Text = "Xóa học viên";
             this.mbtnDelete.Click += new System.EventHandler(this.mbtnDelete_Click);
             // 
+            // mbtnExit
+            // 
+            this.mbtnExit.Name = "mbtnExit";
+            this.mbtnExit.Size = new System.Drawing.Size(77, 24);
+            this.mbtnExit.Text = "&Kết thúc";
+            this.mbtnExit.Click += new System.EventHandler(this.mbtnExit_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -120,6 +120,7 @@ namespace _2001202045_VuNgoDat_SM24_BTNC_VN.Views.BTNC
             this.lstbA.ItemHeight = 22;
             this.lstbA.Location = new System.Drawing.Point(14, 21);
             this.lstbA.Name = "lstbA";
+            this.lstbA.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lstbA.Size = new System.Drawing.Size(224, 268);
             this.lstbA.TabIndex = 3;
             // 
@@ -145,6 +146,7 @@ namespace _2001202045_VuNgoDat_SM24_BTNC_VN.Views.BTNC
             this.lstbB.ItemHeight = 22;
             this.lstbB.Location = new System.Drawing.Point(17, 21);
             this.lstbB.Name = "lstbB";
+            this.lstbB.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lstbB.Size = new System.Drawing.Size(224, 268);
             this.lstbB.TabIndex = 3;
             // 

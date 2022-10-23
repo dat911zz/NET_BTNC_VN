@@ -60,11 +60,12 @@ namespace _2001202045_VuNgoDat_SM24_BTNC_VN
             this.bài1BTVNToolStripMenuItem.Name = "bài1BTVNToolStripMenuItem";
             this.bài1BTVNToolStripMenuItem.Size = new System.Drawing.Size(166, 27);
             this.bài1BTVNToolStripMenuItem.Text = "Bài tập nâng cao";
+            this.bài1BTVNToolStripMenuItem.MouseHover += new System.EventHandler(this.bài1BTVNToolStripMenuItem_MouseHover);
             // 
             // menuBTNC
             // 
             this.menuBTNC.Name = "menuBTNC";
-            this.menuBTNC.Size = new System.Drawing.Size(135, 28);
+            this.menuBTNC.Size = new System.Drawing.Size(224, 28);
             this.menuBTNC.Text = "Bài 1";
             this.menuBTNC.Click += new System.EventHandler(this.menuBTNC_Click);
             // 

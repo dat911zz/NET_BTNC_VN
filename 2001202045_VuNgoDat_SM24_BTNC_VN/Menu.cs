@@ -17,8 +17,7 @@ namespace _2001202045_VuNgoDat_SM24_BTNC_VN
         public Menu()
         {
             InitializeComponent();
-        }
-
+        }       
         private void menuBTNC_Click(object sender, EventArgs e)
         {
             new Views.BTNC.B1().Show();
@@ -26,10 +25,15 @@ namespace _2001202045_VuNgoDat_SM24_BTNC_VN
 
         private void menuBTVN_1_Click(object sender, EventArgs e)
         {
-
+            new Views.BTVN.TimerForm().Show();
         }
 
         private void menuBTVN_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bài1BTVNToolStripMenuItem_MouseHover(object sender, EventArgs e)
         {
 
         }
